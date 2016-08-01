@@ -1,0 +1,286 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.clear:after{
+	content: "";
+	clear:both;
+	display: block;
+}
+.head{
+	width: 100%;
+	height: 32px;
+	background: #0a0810;
+	margin:0 auto;
+	position: relative;
+}
+.head1{
+	width: 1145px;
+	height: 32px;
+	margin:0 auto;
+	/*border: 1px red solid;*/
+	font-family: "Microsoft Yahei";
+}
+.head1_1{
+	float: left;
+	font-size: 20px;
+	color: #ffffff;
+	margin-right:105px;
+}
+.head1_2{
+	font-size: 12px;
+	float: left;
+}
+.head1_2 li{
+	float: left;
+	line-height: 32px;
+	margin-right:52px;
+}
+.head1_2 a{
+	color: #ffffff;
+	text-decoration: none;
+}
+.head1_2 a:hover{
+	color: #da48e7;
+	border-bottom: 2px #ea00ff solid;
+	padding-bottom: 12px;
+}
+#liuyan{
+	color: #da48e7;
+	border-bottom: 2px #ea00ff solid;
+	padding-bottom: 12px;
+}
+.head1_2 ul{
+	list-style: none;
+}
+li.er1{
+	float: left;
+	margin-right: 32px;
+}
+.head1_3{
+	width: 15px;
+	height: 15px;
+	float: left;
+	/*background: url(../img/1.png) 0 -44px;*/
+	background: url(../img/search.png)no-repeat;
+	margin-top: 12px;
+}
+.mid{
+	width: 100%;
+	max-width: 1600px;
+	height:832px;
+	/*border: 1px red solid;*/
+	background:#090909;
+}
+.mid1{
+    width: 1146px;
+    height: 785px;
+    margin:0 auto;
+   /* border:1px red solid;*/
+    font-family: "Microsoft Yahei";
+    background: url(../img/17.png) no-repeat;
+}
+.mid11{
+	width: 62px;
+	height: 21px;
+	float: left;
+	font-size: 14px;
+	/*border:1px red solid;*/
+	color: #ffffff;
+	margin-top: 40px;
+}
+.mid12{
+	width: 1142px;
+	height: 1px;
+	float: left;
+	margin-top: 15px;
+	background: #a9a9a9;
+	margin-bottom: 22px;
+}
+.mid13{
+	width: 1146px;
+	height: 116px;
+	float: left;
+	margin-bottom: 15px;
+	/*border:1px red solid;*/
+}
+.mid131{
+	width: 564px;
+	height: 116px;
+	float: left;
+	background: #ffffff;
+}
+.mid131img{
+	 width: 139px;
+	 height: 85px;
+	 float: left;
+	 background: url(../img/31.png);
+	 margin-top: 15px;
+	 margin-left: 15px;
+}
+.mid1311{
+	width: 385px;
+	height: 80px;
+	float: left;
+	margin-top: 18px;
+	margin-left: 7px;
+	font-size: 12px;
+	letter-spacing: -1px;
+}
+.p1{
+	margin-bottom: 15px;
+}
+.p2{
+	margin-left: 97px;
+	margin-top: 8px;
+}
+.p3{
+	color: #999999;
+	margin-left: 298px;
+	margin-top: -16px;
+}
+.mid132{
+	width: 564px;
+	height: 116px;
+	float: left;
+	background: #ffffff;
+	margin-left: 17px;
+}
+.mid5{
+	width: 362px;
+	height: 26px;
+	float: left;
+	/*border: 1px red solid;*/
+	margin-left: 700px;
+	margin-top: 10px;
+}
+.mid5_1{
+	width: 24px;
+	height: 24px;
+	float: left;
+	background: #7b2783;
+	margin-right: 4px;
+}
+.mid5_1 a{
+	text-decoration: none;
+	font-size: 14px;
+	font-family: "Microsoft Yahei";
+	line-height: 24px;
+	margin-left: 7px;
+	color: white;
+}
+.mid5_2{
+	width: 24px;
+	height: 24px;
+	float: left;
+	background: #ebebeb;
+	margin-right: 4px;
+}
+.mid5_2 a{
+	text-decoration: none;
+	font-size: 14px;
+	font-family: "Microsoft Yahei";
+	line-height: 24px;
+	margin-left: 7px;
+	color:#3c3c3c;
+}
+.mid5_3{
+	width: 53px;
+	height: 24px;
+	float: left;
+	background: #ebebeb;
+	margin-right: 4px; 
+}
+.mid5_3 a{
+	text-decoration: none;
+	font-size: 14px;
+	font-family: "Microsoft Yahei";
+	line-height: 24px;
+	margin-left: 5px;
+	color:#3c3c3c;
+}
+.mid5_4{
+	width: 37px;
+	height: 24px;
+	float: left;
+	font-size: 14px;
+	font-family: "Microsoft Yahei";
+	color: white;
+    line-height: 24px;
+}
+.mid5_5{
+	width: 38px;
+	height: 24px;
+	float: left;
+	background:#ebebeb;
+	margin-right: 6px;
+}
+.mid5_5 a{
+	text-decoration: none;
+	font-size: 14px;
+	font-family: "Microsoft Yahei";
+	line-height: 24px;
+	margin-left: 15px;
+	color:#3c3c3c;
+}
+.mid5_6{
+	width: 23px;
+	height: 24px;
+	float: left;
+	font-size: 14px;
+	font-family: "Microsoft Yahei";
+	color:white;
+    line-height: 24px;
+}
+.mid5_7{
+	width: 30px;
+	height: 24px;
+	float: left;
+	background: #7b2783;
+}
+.foot{
+	width: 100%;
+	height: 79px;
+	background: #f4f4f4;
+}
+.foot1{
+	width: 1242px;
+	height: 20px;
+	float: left;
+	/*border:1px red solid;*/
+	margin-top: 30px;
+	margin-left: 215px;
+}
+.foot11{
+	width: 445px;
+	height: 20px;
+	float: left;
+}
+.foot11 a{
+	color: #727272;
+	text-decoration: none;
+	line-height: 20px;
+}
+.foot11 ul{
+	list-style: none;
+}
+.foot11 li{
+	float: left;
+	margin-right:39px;
+	font-size: 12px;
+	color: #727272;
+}
+#li222{
+	margin-right: 50px;
+}
+
+.foot22{
+	width: 640px;
+	height: 20px;
+	float: left;
+	margin-left: 44px;
+	font-size: 12px;
+	color:#727272;
+	font-family: "Microsoft Yahei";
+	letter-spacing: -1px;
+}

@@ -1,0 +1,135 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.clear:after{
+	content: "";
+	clear:both;
+	display: block;
+}
+.head{
+	width: 100%;
+	height: 32px;
+	background: #0a0810;
+	margin:0 auto;
+	position: relative;
+}
+.head1{
+	width: 1145px;
+	height: 32px;
+	margin:0 auto;
+	/*border: 1px red solid;*/
+	font-family: "Microsoft Yahei";
+}
+.head1_1{
+	float: left;
+	font-size: 20px;
+	color: #ffffff;
+	margin-right:105px;
+}
+.head1_2{
+	font-size: 12px;
+	float: left;
+}
+.head1_2 li{
+	float: left;
+	line-height: 32px;
+	margin-right:52px;
+}
+.head1_2 a{
+	color: #ffffff;
+	text-decoration: none;
+}
+.head1_2 a:hover{
+	color: #da48e7;
+	border-bottom: 2px #ea00ff solid;
+	padding-bottom: 12px;
+}
+#liuyan{
+	color: #da48e7;
+	border-bottom: 2px #ea00ff solid;
+	padding-bottom: 12px;
+}
+.head1_2 ul{
+	list-style: none;
+}
+li.er1{
+	float: left;
+	margin-right: 32px;
+}
+.head1_3{
+	width: 15px;
+	height: 15px;
+	float: left;
+	/*background: url(../img/1.png) 0 -44px;*/
+	background: url(../img/search.png)no-repeat;
+	margin-top: 12px;
+}
+.mid{
+	width: 100%;
+	max-width: 1600px;
+	height:632px;
+	/*border: 1px red solid;*/
+	background:#090909;
+}
+.mid1{
+	width: 1140px;
+	height: 540px;
+	float: left;
+	margin-top: 35px;
+	margin-left: 230px;
+	/*border: 1px red solid;*/
+	background: #ffffff;
+}
+.mid11{
+	width: 1140px; 
+	height: 450px;
+	float: left;
+	background: url(../img/18.png) no-repeat;
+}
+.foot{
+	width: 100%;
+	height: 79px;
+	background: #f4f4f4;
+}
+.foot1{
+	width: 1242px;
+	height: 20px;
+	float: left;
+	/*border:1px red solid;*/
+	margin-top: 30px;
+	margin-left: 215px;
+}
+.foot11{
+	width: 445px;
+	height: 20px;
+	float: left;
+}
+.foot11 a{
+	color: #727272;
+	text-decoration: none;
+	line-height: 20px;
+}
+.foot11 ul{
+	list-style: none;
+}
+.foot11 li{
+	float: left;
+	margin-right:39px;
+	font-size: 12px;
+	color: #727272;
+}
+#li222{
+	margin-right: 50px;
+}
+
+.foot22{
+	width: 640px;
+	height: 20px;
+	float: left;
+	margin-left: 44px;
+	font-size: 12px;
+	color:#727272;
+	font-family: "Microsoft Yahei";
+	letter-spacing: -1px;
+}
